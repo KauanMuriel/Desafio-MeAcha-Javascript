@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #2196F3;
+    --secundary-color: #3D5AFE;
+    --dark-color: #0D47A1;
+}
+
+.material-symbols-outlined {
+    font-size: 90px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 128,
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#subtitle {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+header {
+    height: 200px;
+    background: linear-gradient( to left, var(--primary-color), var(--secundary-color));
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    color: var(--primary-color);
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+form input {
+    height: 30px;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+#btn {
+    margin-top: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    box-shadow: 0px 3px var(--dark-color);
+    color: #fff;
+    cursor: pointer;
+}
